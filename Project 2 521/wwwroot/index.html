@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Mass Effect</title>
+</head>
+
+<body id="backgroundChange" class="backImage">
+    <div id="textAlign">
+        <script type="text/javascript" src="./script.js"></script>
+        <h1 id="SearchEngineID" onclick="changeBackground()">Mass Effect</h1>
+        <div>
+            <input id="query" type="text" placeholder="Your desired search..." />
+            <br />
+            <br />
+            <button id="SearchButton" onclick="callApiSearch()">Search</button>
+        </div>
+        <br />
+        <button id="CurrentTime" onclick="getTime()">Time</button>
+        <div id="time"></div>
+
+        <div id="searchResults"></div>
+    </div>
+
+
+</body>
+
+</html>
